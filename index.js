@@ -9,5 +9,5 @@
  * @type {Symbol}
  */
 Object.defineProperty(exports, 'LEVEL', {
-  value: Symbol('level')
+  value: Symbol.for('level')
 });
