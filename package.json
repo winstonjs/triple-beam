@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/winstonjs/triple-beam/issues"
   },
-  "homepage": "https://github.com/winstonjs/triple-beam#readme"
+  "homepage": "https://github.com/winstonjs/triple-beam#readme",
+  "devDependencies": {
+    "assume": "^1.5.1",
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1"
+  }
 }
