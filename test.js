@@ -24,4 +24,27 @@ describe('triple-beam', function () {
       assume(tripleBeam.LEVEL).equals(LEVEL);
     });
   });
+
+  describe('MESSAGE constant', function () {
+    it('is exposed', function () {
+      assume(tripleBeam.MESSAGE);
+    });
+
+    it('is a Symbol', function () {
+      assume(tripleBeam.MESSAGE).is.a('symbol');
+    });
+
+    it('is not mutable', function () {
+      //
+      // Assert that the symbol does not change
+      // even though the operation does not throw.
+      //
+      const OVERWRITE = Symbol('overwrite');
+      const MESSAGE = tripleBeam.MESSAGE;
+
+      assume(MESSAGE).not.equals(OVERWRITE);
+      tripleBeam.MESSAGE = OVERWRITE;
+      assume(tripleBeam.MESSAGE).equals(MESSAGE);
+    });
+  });
 });
