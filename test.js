@@ -47,4 +47,29 @@ describe('triple-beam', function () {
       assume(tripleBeam.MESSAGE).equals(MESSAGE);
     });
   });
+
+  describe('configs constant', function () {
+    it('is exposed', function () {
+      assume(tripleBeam.configs);
+    });
+
+    it('is a Symbol', function () {
+      assume(tripleBeam.configs).is.an('Object');
+    });
+
+    it('is not mutable', function () {
+      //
+      // Assert that the object does not change
+      // even though the operation does not throw.
+      //
+      const overwrite = {
+        overwrite: 'overwrite'
+      };
+      const configs = tripleBeam.configs;
+
+      assume(configs).not.equals(overwrite);
+      tripleBeam.configs = overwrite;
+      assume(tripleBeam.configs).equals(configs);
+    });
+  })
 });
