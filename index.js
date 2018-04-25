@@ -32,4 +32,4 @@ Object.defineProperty(exports, 'MESSAGE', {
  */
 Object.defineProperty(exports, 'configs', {
   value: require('./config')
-})
+});
