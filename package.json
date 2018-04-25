@@ -4,6 +4,8 @@
   "description": "Definitions of levels for logging purposes & shareable Symbol constants.",
   "main": "index.js",
   "scripts": {
+    "lint": "populist config/*.js index.js",
+    "pretest": "npm run lint",
     "test": "nyc mocha test.js"
   },
   "repository": {
