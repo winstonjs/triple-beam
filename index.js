@@ -23,3 +23,13 @@ Object.defineProperty(exports, 'LEVEL', {
 Object.defineProperty(exports, 'MESSAGE', {
   value: Symbol.for('message')
 });
+
+/**
+ * A shareable object constant  that can be used
+ * as a standard configuration for winston@3.
+ *
+ * @type {Object}
+ */
+Object.defineProperty(exports, 'configs', {
+  value: require('./config')
+})
