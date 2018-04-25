@@ -27,6 +27,7 @@
   "homepage": "https://github.com/winstonjs/triple-beam#readme",
   "devDependencies": {
     "assume": "^2.0.0",
+    "eslint-config-populist": "^4.1.0",
     "mocha": "^3.5.3",
     "nyc": "^11.2.1"
   }
