@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.2.0
+
+- [#2] Move configs from `winston.config.{npm,syslog,npm}` into `triple-beam`. 
+
 ### 1.1.0
 
 - Expose a `MESSAGE` Symbol, nothing more.
