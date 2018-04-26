@@ -71,5 +71,5 @@ describe('triple-beam', function () {
       tripleBeam.configs = overwrite;
       assume(tripleBeam.configs).equals(configs);
     });
-  })
+  });
 });
