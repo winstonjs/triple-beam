@@ -25,6 +25,17 @@ Object.defineProperty(exports, 'MESSAGE', {
 });
 
 /**
+ * A shareable symbol constant that can be used
+ * as a non-enumerable / semi-hidden message identifier
+ * to allow the extracted splat property be hidden
+ *
+ * @type {Symbol}
+ */
+Object.defineProperty(exports, 'SPLAT', {
+  value: Symbol.for('splat')
+});
+
+/**
  * A shareable object constant  that can be used
  * as a standard configuration for winston@3.
  *
