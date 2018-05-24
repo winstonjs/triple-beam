@@ -1,6 +1,9 @@
 # CHANGELOG
 
-- Add `SPLAT` symbol.
+### 1.3.0
+
+- [#4] Add `SPLAT` symbol.
+- [#3] Add linting & TravisCI.
 
 ### 1.2.0
 
