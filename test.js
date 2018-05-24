@@ -48,6 +48,29 @@ describe('triple-beam', function () {
     });
   });
 
+  describe('SPLAT constant', function () {
+    it('is exposed', function () {
+      assume(tripleBeam.SPLAT);
+    });
+
+    it('is a Symbol', function () {
+      assume(tripleBeam.SPLAT).is.a('symbol');
+    });
+
+    it('is not mutable', function () {
+      //
+      // Assert that the symbol does not change
+      // even though the operation does not throw.
+      //
+      const OVERWRITE = Symbol('overwrite');
+      const SPLAT = tripleBeam.SPLAT;
+
+      assume(SPLAT).not.equals(OVERWRITE);
+      tripleBeam.SPLAT = OVERWRITE;
+      assume(tripleBeam.SPLAT).equals(SPLAT);
+    });
+  });
+
   describe('configs constant', function () {
     it('is exposed', function () {
       assume(tripleBeam.configs);

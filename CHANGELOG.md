@@ -1,5 +1,7 @@
 # CHANGELOG
 
+- Add `SPLAT` symbol.
+
 ### 1.2.0
 
 - [#2] Move configs from `winston.config.{npm,syslog,npm}` into `triple-beam`. 
