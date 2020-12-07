@@ -1,1 +1,4 @@
+.eslintrc
+.gitattributes
+.travis.yml
 test.js
