@@ -30,7 +30,7 @@
   "devDependencies": {
     "assume": "^2.0.1",
     "eslint-config-populist": "^4.1.0",
-    "mocha": "^5.1.1",
-    "nyc": "^11.7.1"
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
   }
 }
