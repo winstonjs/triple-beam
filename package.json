@@ -4,7 +4,7 @@
   "description": "Definitions of levels for logging purposes & shareable Symbol constants.",
   "main": "index.js",
   "scripts": {
-    "lint": "populist config/*.js index.js",
+    "lint": "eslint config/*.js index.js --resolve-plugins-relative-to ./node_modules/@dabh/eslint-config-populist",
     "pretest": "npm run lint",
     "test": "nyc mocha test.js"
   },
