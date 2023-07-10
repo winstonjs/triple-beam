@@ -1,6 +1,6 @@
 {
   "name": "triple-beam",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Definitions of levels for logging purposes & shareable Symbol constants.",
   "main": "index.js",
   "scripts": {
