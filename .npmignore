@@ -2,3 +2,4 @@
 .gitattributes
 .travis.yml
 test.js
+.github
