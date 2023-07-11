@@ -17,11 +17,12 @@ exports.levels = {
   help: 2,
   data: 3,
   info: 4,
-  debug: 5,
-  prompt: 6,
-  verbose: 7,
-  input: 8,
-  silly: 9
+  http: 5,
+  debug: 6,
+  prompt: 7,
+  verbose: 8,
+  input: 9,
+  silly: 10
 };
 
 /**
