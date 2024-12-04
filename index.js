@@ -9,6 +9,7 @@
  * @type {Symbol}
  */
 Object.defineProperty(exports, 'LEVEL', {
+  enumerable: true,
   value: Symbol.for('level')
 });
 
@@ -21,6 +22,7 @@ Object.defineProperty(exports, 'LEVEL', {
  * @type {Symbol}
  */
 Object.defineProperty(exports, 'MESSAGE', {
+  enumerable: true,
   value: Symbol.for('message')
 });
 
@@ -32,6 +34,7 @@ Object.defineProperty(exports, 'MESSAGE', {
  * @type {Symbol}
  */
 Object.defineProperty(exports, 'SPLAT', {
+  enumerable: true,
   value: Symbol.for('splat')
 });
 
@@ -42,5 +45,6 @@ Object.defineProperty(exports, 'SPLAT', {
  * @type {Object}
  */
 Object.defineProperty(exports, 'configs', {
+  enumerable: true,
   value: require('./config')
 });

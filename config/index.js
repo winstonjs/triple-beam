@@ -12,6 +12,7 @@
  * @type {Object}
  */
 Object.defineProperty(exports, 'cli', {
+  enumerable: true,
   value: require('./cli')
 });
 
@@ -20,6 +21,7 @@ Object.defineProperty(exports, 'cli', {
  * @type {Object}
  */
 Object.defineProperty(exports, 'npm', {
+  enumerable: true,
   value: require('./npm')
 });
 
@@ -28,5 +30,6 @@ Object.defineProperty(exports, 'npm', {
  * @type {Object}
  */
 Object.defineProperty(exports, 'syslog', {
+  enumerable: true,
   value: require('./syslog')
 });
